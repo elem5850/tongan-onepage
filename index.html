@@ -3,86 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>番社同安廟｜一頁式官網</title>
-  <meta name="description" content="番社同安廟（宜蘭壯圍）重大祭典、最新公告、交通資訊。">
+  <title>番社同安廟｜官網</title>
+  <meta name="description" content="番社同安廟（宜蘭壯圍）主神北極玄天上帝；重大祭典、公告、交通資訊。">
   <link rel="stylesheet" href="styles.css">
+  <meta property="og:image" content="images/hero.jpg">
 </head>
 <body>
 <header>
-  <nav class="container">
+  <nav>
     <div class="brand">番社同安廟</div>
     <ul>
-      <li><a href="#about">關於</a></li>
-      <li><a href="#events">重大活動</a></li>
-      <li><a href="#ig">Instagram</a></li>
+      <li><a href="#news-sec">公告</a></li>
+      <li><a href="#events-sec">祭典</a></li>
+      <li><a href="#ig-sec">Instagram</a></li>
       <li><a href="#visit">交通</a></li>
-      <li><a href="#contact">聯絡</a></li>
+      <li><a href="#about">關於</a></li>
     </ul>
   </nav>
 </header>
 
-<main>
-  <section class="hero">
-    <h1>主神：北極玄天上帝</h1>
-    <p>宜蘭縣壯圍鄉復興村壯濱路二段47號　電話 03-938-5941</p>
-    <img src="images/hero.jpg" alt="番社同安廟外觀">
-    <div class="cta">
-      <a href="https://www.instagram.com/tongantemple_1906" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.facebook.com/%E7%95%AA%E7%A4%BE%E5%90%8C%E5%AE%89%E5%BB%9F%E7%8E%84%E5%A4%A9%E4%B8%8A%E5%B8%9D-61551618617873/" target="_blank" rel="noopener">Facebook</a>
-    </div>
-  </section>
+<section class="hero">
+  <img src="images/hero.jpg" alt="番社同安廟外觀">
+  <div class="overlay"></div>
+  <div class="title"><h1>主神：北極玄天上帝</h1></div>
+</section>
 
-  <section id="about" class="section container">
-    <div class="panel">
-      
-      <h2>關於本廟</h2>
-      <p>主祀北極玄天上帝，為壯圍鄉重要信仰中心之一；常年舉辦誦經祈福、點燈與公益活動。資訊以官方貼文公告為準。</p>
-      <h3>殿內神祇</h3>
-      <ul>
-        <li><strong>正殿</strong>：玄天上帝，同祀妙樂天尊、三官大帝、呂仙祖、趙元帥、康元帥、中壇元帥、蛇將軍、虎爺，並寄殿協天大帝、茅山道祖、天上聖母。</li>
-        <li><strong>左殿</strong>：馬頭觀音、宮主（義女）。</li>
-        <li><strong>右殿</strong>：福德正神。</li>
-      </ul>
-      <h3>歷史沿革（摘要）</h3>
-      <p>創建可追溯至日治明治39年（1906），開基玄天上帝金身隨先民渡海來台，最初於頭城蕃薯寮奉祀，後遷至壯圍番社。民國38年因舊廟坍壞而倡議改建，依神示於民國79年遷建於現址完成，成為壯圍地區規模最大的玄天上帝廟。</p>
-      <p>廟宇位於濱海公路旁（象徵蛇），坐西朝龜山島（象徵龜）。年度重點祭典包含：正月七星平安橋與祈福、三月初三帝爺公聖誕過火、以及農曆七月中元普渡等。</p>
-
+<section id="news-sec" class="section">
+  <div class="container split">
+    <div>
+      <h2>最新公告</h2>
+      <div id="news" class="news-list"></div>
     </div>
-  </section>
+    <aside>
+      <h2>聯絡與連結</h2>
+      <p><a href="https://www.instagram.com/tongantemple_1906" target="_blank" rel="noopener">Instagram</a></p>
+      <p><a href="https://www.facebook.com/%E7%95%AA%E7%A4%BE%E5%90%8C%E5%AE%89%E5%BB%9F%E7%8E%84%E5%A4%A9%E4%B8%8A%E5%B8%9D-61551618617873/" target="_blank" rel="noopener">Facebook</a></p>
+    </aside>
+  </div>
+</section>
 
-  <section class="section container">
-    <div class="panel">
-      <h2>重大活動</h2>
-      <div id="events" class="grid" aria-live="polite"></div>
-    </div>
-  </section>
+<section id="events-sec" class="section">
+  <div class="container">
+    <h2>重大祭典</h2>
+    <div id="events" class="grid"></div>
+  </div>
+</section>
 
-  
-  <section id="ig" class="section container">
-    <div class="panel">
-      <h2>Instagram 花絮（最新 10 則）</h2>
-      <div id="ig-embeds" class="ig-embed-grid"></div>
-    </div>
-  </section>
+<section id="ig-sec" class="section">
+  <div class="container">
+    <h2>Instagram 花絮</h2>
+    <div id="ig-embeds" class="ig-embed-grid"></div>
+  </div>
+</section>
 
-  <section id="visit" class="section container">
-    <div class="panel">
-      <h2>交通與位置</h2>
-      <p>地址：宜蘭縣壯圍鄉復興村壯濱路二段47號</p>
-      <iframe id="map" src="https://www.google.com/maps?q=24.75791,121.81136&z=16&output=embed" loading="lazy" title="番社同安廟地圖"></iframe>
-    </div>
-  </section>
+<section id="visit" class="section">
+  <div class="container">
+    <h2>交通與位置</h2>
+    <p>地址：宜蘭縣壯圍鄉復興村壯濱路二段47號　電話 03-938-5941</p>
+    <iframe id="map" src="https://www.google.com/maps?q=24.75791,121.81136&z=16&output=embed" loading="lazy" title="番社同安廟地圖" style="width:100%;height:360px;border:0;border-radius:12px;border:1px solid #eee"></iframe>
+  </div>
+</section>
 
-  <section id="contact" class="section container">
-    <div class="panel">
-      <h2>聯絡</h2>
-      <p>洽詢請私訊 IG 或 Facebook，或於開放時間至服務台。</p>
-    </div>
-  </section>
-</main>
+<section id="about" class="section">
+  <div class="container">
+    <h2>關於本廟</h2>
+    <p>正殿主祀北極玄天上帝，配祀妙樂天尊、三官大帝、呂仙祖、趙元帥、康元帥、中壇元帥、蛇將軍、虎爺，寄殿協天大帝、茅山道祖、天上聖母；左殿奉祀馬頭觀音與宮主，右殿奉祀福德正神。沿革可追溯至 1906 年，後於民國79年遷建現址。</p>
+  </div>
+</section>
 
 <footer>
-  <small>© 2025 番社同安廟．設計主色：深紅與金。裝飾圖騰為通用幾何龜蛇紋理，非特定肖像。</small>
+  © 2025 番社同安廟
 </footer>
 
 <script src="main.js"></script>
