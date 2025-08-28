@@ -16,21 +16,4 @@ async function loadEvents(){
     list.appendChild(el);
   });
 }
-
-async function loadIG(){
-  try{
-    const res = await fetch('data/insta.json',{cache:'no-store'});
-    const urls = await res.json();
-    const wrap = document.getElementById('ig-embeds');
-    urls.forEach(u=>{
-      const div = document.createElement('div');
-      div.innerHTML = `
-      <blockquote class="instagram-media" data-instgrm-permalink="${u}" data-instgrm-version="14"></blockquote>`;
-      wrap.appendChild(div);
-    });
-    // process embeds
-    if(window.instgrm){ instgrm.Embeds.process(); }
-  }catch(e){ console.error(e); }
-}
-
-document.addEventListener('DOMContentLoaded', ()=>{ loadEvents(); loadIG(); });
+document.addEventListener('DOMContentLoaded', loadEvents);
