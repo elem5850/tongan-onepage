@@ -1,0 +1,30 @@
+[
+  {
+    "title": "玄天上帝聖誕",
+    "when": "每年 農曆三月初三",
+    "notes": "聖誕大典，視當年公告辦理過火、遶境等科儀。",
+    "image": "images/event-3-3.jpg",
+    "link": "https://www.instagram.com/p/DHkf-jNT_5T/"
+  },
+  {
+    "title": "七星平安橋與新春平安粥",
+    "when": "每年 正月初一－初五",
+    "notes": "開放七星平安橋，供應葷素平安粥；時間以公告為準。",
+    "image": "images/pingan-bridge.jpg",
+    "link": "https://www.instagram.com/p/DFWYzQQTBVn/"
+  },
+  {
+    "title": "中元普渡",
+    "when": "每年 農曆七月（日期依公告）",
+    "notes": "設普供、誦經科儀。",
+    "image": "images/pudu.jpg",
+    "link": ""
+  },
+  {
+    "title": "廟口周五夜市",
+    "when": "每週五 16:00－22:00（以現場為準）",
+    "notes": "地方型夜市，攤商餐車聚集。",
+    "image": "images/night-market.jpg",
+    "link": ""
+  }
+]
